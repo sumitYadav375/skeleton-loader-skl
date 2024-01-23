@@ -1,0 +1,44 @@
+{
+  "name": "skeleton-loader-skl",
+  "version": "1.2.1",
+  "description": "A description of your package",
+  "main": "lib/SkeletonLoader.js",
+  "keywords": [
+    "react",
+    "skeleton",
+    "loader"
+  ],
+  "author": "sumit yadav",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitYadav375/skeleton-loader-skl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sumitYadav375/skeleton-loader-skl/issues"
+  },
+  "homepage": "https://github.com/sumitYadav375/skeleton-loader-skl#readme",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "files": [
+    "src",
+    "styles",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "prepublishOnly": "npm run build"
+  }
+}
