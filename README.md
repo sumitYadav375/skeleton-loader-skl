@@ -17,4 +17,12 @@ yarn install
 
 ## HOW TO use components
 
-<SkeletonLoader width="50%" height="20px" />
+
+
+```html
+<h2>Example of code</h2>
+
+<pre>
+  <SkeletonLoader width="50%" height="20px" />
+</pre>
+```
