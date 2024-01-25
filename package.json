@@ -1,5 +1,5 @@
 {
-  "name": "skeleton-loader-skl",
+  "name": "skeleton-loader-custom",
   "version": "1.2.1",
   "description": "A description of your package",
   "main": "lib/SkeletonLoader.js",
